@@ -1,16 +1,32 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2, p {
+    color: #383838;
+}
+
+h3, a {
+    color: #11999e;
 }
 
 h1 {
-    width: 10%;
-    margin: 0 auto;
-     
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
 }
 
-h1, p {
-    color: #383838;
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -22,15 +38,15 @@ h1, p {
 
 
 .middle-container {
-    background-color: #CDBE78;
-    width: 200px;
-    height: 200px;
+
 }
 
 .bottom-container {
-    background-color: #066163;
-    width: 200px;
-    height: 200px;
+
+}
+
+.skill-row {
+    width: 50%;
 }
 
 .pro {
@@ -47,4 +63,16 @@ h1, p {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.laptop-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chili-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px ;
 }
