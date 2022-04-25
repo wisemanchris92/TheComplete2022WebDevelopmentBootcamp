@@ -5,6 +5,7 @@ body {
 #title {
     background-color: #ff4c68;
     color: white;
+    text-align: left;
 }
 
 .container-fluid {
@@ -138,4 +139,47 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;  
+}
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5; 
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+    }
+
+    .cell-dog-image{
+        width: 100%;
+        position: static;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
